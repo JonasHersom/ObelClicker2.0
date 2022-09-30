@@ -117,12 +117,6 @@ while running:
             if obelUpgrade5.checkForInput(mousePos):
                 myStore.buy("speedobels")
 
-        if event.type == KEYDOWN:
-            if event.key in [K_o]:
-                myStore.balance += 1000000
-
-
-
     # Render Billeder og text
     # ObelCoins
     ObelVis = get_font(35).render(f"{human_format(myStore.balance, 1)}", 1, (0,0,0))
