@@ -14,9 +14,11 @@ class Store:
     def __init__(self):
         """ Storefront class """
         self.items = (
-            Upgrade("xhamster", price=10, ops=0.3333, multiplier=1.05),
+            Upgrade("xhamster", price=10, ops=0.3333, multiplier=1.01),
             Upgrade("lube", price=100, opk=1, add=50),
-            Upgrade("obelfans", price=1000, ops=25, multiplier=1.01),
+            Upgrade("obelfans", price=1000, ops=25, multiplier=1.06),
+            Upgrade("folkedans", price=20000, ops=200, multiplier=1.005),
+            Upgrade("speedobels", price=500000, ops=5000, opk=2500, multiplier=1),
         )
         self.balance = 0
 
