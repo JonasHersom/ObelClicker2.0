@@ -1,2 +1,2 @@
 # ObelClicker2.0
-**Not at proper release yet, but if you just run the main.py it works**
+**I mean it works just run the exe in the folder with the main.py and other stuff and its fine**
